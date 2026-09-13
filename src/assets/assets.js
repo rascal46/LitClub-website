@@ -19,6 +19,15 @@ import ev4 from './festCSpost.jpg'
 import ss from './salonyshawbook.png'
 import ev5 from './call26.jpg'
 import ev6 from './anurag.jpg'
+import adr from './adr.jpg'
+import arpan from './arpan.jpg'
+import abhi from './abhi.jpg'
+import tirth from './tirtha.jpg'
+import ib from './ib.jpg'
+import eva from './interview101.png'
+import eva3 from './women.png'
+import eva2 from './poem.png'
+import eva1 from './oneline.png'
 
 export const assets = {
   heroimg,
@@ -59,20 +68,20 @@ export const events = [
 
   {
     title: 'Interviews 101: Job Interview Survival Guide with Mr. Anurag Bhattacharjee',
-    imgLink: ev4,
+    imgLink: eva,
     date: 'September 6, 2026',
     venue: 'Google Meet',
     description: 'The GNIT Literary Club conducted an interactive webinar on Job Interviews, offering practical guidance on communication, aptitude, technical, and behavioural skills to help students approach job interviews with greater confidence.',
-    onClick: 'https://www.linkedin.com/posts/literary-club-gnit_literaryclubgnit-gnit-aksaratechxlitfest-activity-7413527632107089921-CrV_?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAFvjFxcBRe-kIM1dHFNteL2jB94TupXp8qA'
+    onClick: 'https://www.instagram.com/p/DdN9SajJB5Y/'
   },
 
   {
     title: 'Book Discussion: The Silent Patient',
-    imgLink: ev3a,
+    imgLink: ev3,
     date: 'May 8, 2025',
-    venue: 'Language Lab-I, GNIT Campus',
-    description: "Dive into the psychological thriller \"The Silent Patient\" by Alex Michaelides. An engaging discussion about the book's themes, characters, and twists followed.",
-    onClick: 'https://www.instagram.com/p/DJcJtztJ-Ek/?hl=en&img_index=1'
+    venue: 'Language Lab-II, GNIT Campus',
+    description: "Our discussion on The Silent Patient by Alex Michaelides was an engaging exploration of its characters, themes, twists, and psychological depth, with members sharing their interpretations and theories in a lively exchange.",
+    onClick: 'https://www.instagram.com/p/DJcJtztJ-Ek/?img_index=1'
   },
 
 
@@ -91,10 +100,25 @@ export const achievements = [
 
 export const contests = [
   {
-    title: "Club Contest",
-    date: "September 2026",
-    description: "A creative contest organised by the GNIT Literary Club.",
-    image: "https://placehold.co/600x400"
+    title: "International Women's Day Writing Contest",
+    date: "March 8, 2026",
+    imgLink: eva3,
+    description: "An online creative writing contest organised by the GNIT Literary Club on the occassion of Women's Day, 2026.",
+    onClick: "https://www.instagram.com/p/DVnPMo4iYC3/?img_index=1"
+  },
+  {
+    title: "24 Hours Poetry Challenge",
+    date: "March 21, 2026",
+    imgLink: eva2,
+    description: "A 24 Hours Poetry Challenge on the theme \"What Changed, What Didn't\" organised by the GNIT Literary Club on World Poetry Day.",
+    onClick: "https://www.instagram.com/p/DWk9bfmCSJB/?img_index=1"
+  },
+  {
+    title: "One-Liner Stories",
+    date: "July 24, 2026",
+    imgLink: eva1,
+    description: "A creative contest challenging the participants to write a one-liner story, organised by the GNIT Literary Club.",
+    onClick: "https://www.instagram.com/p/DbJZ3Ttkx7z/?img_index=1"
   },
 ];
 
@@ -104,8 +128,8 @@ export const announcements = [
     title: 'Interviews 101: Job Interview Survival Guide with Mr. Anurag Bhattacharjee',
     imgLink: ev6,
     date: 'September 6, 2026',
-    description: "Calling all writers and artists for the 2026 edition of Literary Musings, official magazine of the GNIT!",
-    onClick: 'https://www.instagram.com/p/DX9eos1pDSu/'
+    description: "An interactive webinar on Job Interviews was conducted by the GNIT Literary Club, offering practical guidance on communication, aptitude, technical, and behavioural skills to help students approach job interviews with greater confidence with Mr. Anurag Bhattacharjee, CSE'26 Alumnus and a seasoned professional with extensive experience in the corporate world.",
+    onClick: 'https://www.instagram.com/p/DdN9SajJB5Y/'
   },
   
   {
@@ -135,16 +159,17 @@ export const announcements = [
     title: 'Unveiling the Literary Club of GNIT!',
     imgLink: ev1,
     date: 'April 9, 2025',
-    venue: 'Language Lab-I, GNIT Campus',
+    venue: 'Language Lab-II, GNIT Campus',
     description: 'The event poster and joining link were shared. The Club was revived after a long hiatus!',
     onClick: 'https://www.instagram.com/p/DINaac5pPHw/?hl=en'
   }
 ];
 
 export const faculty = [
+
   {
     name: 'Dr. Indrajit Bose',
-    imgLink: 'https://gnit-backup-8apr2026.gnit-311.in/wp-content/uploads/2025/04/me.jpg',
+    imgLink: ib,
     designation: 'HOD, Department of Applied Sciences and Humanities',
     position: 'Faculty Coordinator'
   }
@@ -153,28 +178,28 @@ export const faculty = [
 export const studentcore = [
   {
     name: 'Adrija Das',
-    imgLink: 'https://gnit-backup-8apr2026.gnit-311.in/wp-content/uploads/2025/04/salonyshaw.jpg',
+    imgLink: adr,
     designation: 'CSE, 3rd Year',
     position: 'Student Coordinator'
   },
 
   {
     name: 'Tirtharaj Bhattacharya',
-    imgLink: 'https://gnit-backup-8apr2026.gnit-311.in/wp-content/uploads/2025/04/salonyshaw.jpg',
+    imgLink: tirth,
     designation: 'ECE, 3rd Year',
     position: 'Student Coordinator'
   },
 
   {
-    name: 'Arpan Das',
-    imgLink: 'https://gnit-backup-8apr2026.gnit-311.in/wp-content/uploads/2025/04/salonyshaw.jpg',
+    name: 'Arpan Paul',
+    imgLink: arpan,
     designation: 'CSE, 3rd Year',
     position: 'Events and Presentations Head'
   },
 
   {
     name: 'Abhimanyu Kumar',
-    imgLink: 'https://gnit-backup-8apr2026.gnit-311.in/wp-content/uploads/2025/04/salonyshaw.jpg',
+    imgLink: abhi,
     designation: 'CSE, 3rd Year',
     position: 'Social Media Coordinator'
   },

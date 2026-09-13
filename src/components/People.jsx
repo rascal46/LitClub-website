@@ -34,7 +34,7 @@ function People() {
                 </div>
 
                 <p className="text-subtext text-sm leading-relaxed">
-                  {person.description}
+                  {person.position}
                 </p>
               </div>
             </div>
