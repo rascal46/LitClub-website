@@ -30,7 +30,7 @@ function Showcase() {
                 </h3>
 
                 <div className="text-sm text-[#a68f6f] mb-3">
-                  {item.person}
+                  {item.date}
                 </div>
 
                 <p className="text-subtext text-sm leading-relaxed">

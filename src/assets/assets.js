@@ -92,7 +92,7 @@ export const achievements = [
   {
     title: "Book Published!",
     imgLink: ss, 
-    person: "Salony Shaw",
+    date: "March 5, 2026",
     description: "Congratulations to Salony Shaw, a dedicated student of the Department of Business Administration, GNIT, on the successful publication of her book ‘SHE: A Psychopath?’. We celebrate her remarkable literary achievement and wish her continued success in her creative journey.",
     onClick: 'https://www.instagram.com/p/DPGC_e4k_q4/'
   },
