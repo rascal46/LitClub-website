@@ -68,6 +68,10 @@ function Showcase() {
                   {item.title}
                 </h3>
 
+                <div className="text-sm text-[#a68f6f] mb-3">
+                  {item.date}
+                </div>
+
                 <p className="text-subtext text-sm leading-relaxed">
                   {item.description}
                 </p>
