@@ -29,6 +29,7 @@ import eva3 from './women.png'
 import eva2 from './poem.png'
 import eva1 from './oneline.png'
 import rybak from './debate9.jpeg'
+import rik from './debate.jpg'
 
 export const assets = {
   heroimg,
@@ -67,6 +68,15 @@ export const featured = [
 ];
 export const events = [
 
+  {
+    title: 'In-House Oxford Debate',
+    imgLink: rik,
+    date: 'October 9, 2026',
+    venue: 'Language Lab II',
+    description: 'The GNIT Literary Club organised an engaging In-House Oxford Debate Contest, encouraging students to challenge ideas, test arguments, and explore diverse perspectives through critical thinking and persuasive rhetoric. The event celebrated the participants’ confidence, reasoning, and public-speaking skills while recognising the winners and appreciating the judges and everyone who contributed to its success.',
+    onClick: 'https://www.instagram.com/p/DeZyOGpkyLu/?img_index=1'
+  },
+  
   {
     title: 'Interviews 101: Job Interview Survival Guide with Mr. Anurag Bhattacharjee',
     imgLink: eva,
