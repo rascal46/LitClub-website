@@ -30,6 +30,7 @@ import eva2 from './poem.png'
 import eva1 from './oneline.png'
 import rybak from './debate9.jpeg'
 import rik from './debate.jpg'
+import riki from './flyer.jpg'
 
 export const assets = {
   heroimg,
@@ -135,7 +136,15 @@ export const contests = [
 
 export const announcements = [
   
-   {
+  {
+    title: 'GEEK-O-WEEN 2K26',
+    imgLink: riki,
+    date: 'November 6, 2026',
+    description: "The GNIT Literary Club invites students to GEEK-O-WEEN 2K26, a Halloween celebration featuring villain cosplay, quizzes, music, creative model displays, and more! Students can participate in exciting activities, showcase their creativity, and enjoy a spooky day of fun. Entry is free, and registration is open to all. 🎃👻",
+    onClick: 'https://www.instagram.com/p/DfGbhBzxMbi/'
+  },
+  
+  {
     title: 'In-House Oxford Debate',
     imgLink: rybak,
     date: 'October 9, 2026',
@@ -223,3 +232,5 @@ export const studentcore = [
     position: 'Social Media Coordinator'
   },
 ];
+
+//npm run dev
